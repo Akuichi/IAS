@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb7f1ae57a1d0e4fa8704cb223911c0, type: 3}
+  m_Name: newAggressiveWeaponData
+  m_EditorClassIdentifier: 
+  <AttackDetails>k__BackingField:
+  - AttackName: 
+    MovementSpeed: 2
+    DamageAmount: 10
+    KnockbackStrength: 5
+    PoiseDamageAmount: 20
+    KnockbackAngle: {x: 1, y: 1}
+  - AttackName: 
+    MovementSpeed: 1
+    DamageAmount: 12
+    KnockbackStrength: 5
+    PoiseDamageAmount: 15
+    KnockbackAngle: {x: 1, y: 1}
+  - AttackName: 
+    MovementSpeed: 6
+    DamageAmount: 14
+    KnockbackStrength: 5
+    PoiseDamageAmount: 50
+    KnockbackAngle: {x: 1, y: 1}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47b0fbacf7c844284b3e0843ee5e74, type: 3}
+  m_Name: Enemy1_BaseData
+  m_EditorClassIdentifier: 
+  MaxHealth: 30
+  DamageHopSpeed: 3
+  WallCheckDistance: 0.2
+  LedgeCheckDistance: 1
+  GroundCheckRadius: 0.3
+  MinAggroDistance: 7
+  MaxAggroDistance: 8
+  StunResistance: 3
+  StunRecoveryTime: 1
+  CloseRangeActionDistance: 1.5
+  HitParticleEffect: {fileID: 0}
+  WhatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
+  WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
